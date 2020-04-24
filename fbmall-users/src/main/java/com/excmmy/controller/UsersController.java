@@ -1,6 +1,7 @@
 package com.excmmy.controller;
 
 
+import com.excmmy.bean.Users;
 import com.excmmy.service.UsersService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -31,8 +32,12 @@ public class UsersController {
 
     @RequestMapping(value = "/user/login", method = RequestMethod.POST)
     public ResponseJsonBody getUserByUsernameAndUserpass(@RequestBody RequestJsonBody requestJsonBody) {
-        System.out.println("成功访问到了/user/login后台");
         return usersService.getUserByUsernameAndUserpass(requestJsonBody);
+    }
+
+    @RequestMapping(value = "/user/insert", method = RequestMethod.POST)
+    public ResponseJsonBody insertUser(@RequestBody Users users) {
+        return usersService.insertUser(users);
     }
 }
 

@@ -29,6 +29,7 @@ public class CartServiceImpl extends ServiceImpl<CartMapper, Cart> implements Ca
         QueryWrapper<Cart> cartQueryWrapper = new QueryWrapper<>();
         cartQueryWrapper.eq("usersId", cart.getUsersId());
         cartQueryWrapper.eq("productId", cart.getProductId());
+        cartQueryWrapper.eq("isDelete", 0);
         Cart cartOriginal = cartMapper.selectOne(cartQueryWrapper);
         int flag = 0;
         if (cartOriginal == null) {

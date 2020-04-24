@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="359e3208-2ecc-4299-bc55-8487955f29d5" name="默认更改列表" comment="" />
+    <list default="true" id="359e3208-2ecc-4299-bc55-8487955f29d5" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/bean/OrderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/controller/OrderListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/feign/ProductFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/mapper/OrderListMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/service/OrderListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/service/impl/OrderListServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/spc11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/spc11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-common/src/main/java/pojo/MallConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-common/src/main/java/pojo/MallConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/MyBatisPlusGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/MyBatisPlusGenerate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/controller/OrdersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/service/OrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/service/OrdersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/service/impl/OrdersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/service/impl/OrdersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-orders/target/classes/com/excmmy/MyBatisPlusGenerate.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-orders/target/classes/com/excmmy/MyBatisPlusGenerate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-orders/target/classes/com/excmmy/controller/OrdersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-orders/target/classes/com/excmmy/controller/OrdersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-orders/target/classes/com/excmmy/service/OrdersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-orders/target/classes/com/excmmy/service/OrdersService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-orders/target/classes/com/excmmy/service/impl/OrdersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-orders/target/classes/com/excmmy/service/impl/OrdersServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/controller/ProductImgsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/controller/ProductImgsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/mapper/ProductImgsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/mapper/ProductImgsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/mapper/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/mapper/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/mapper/xml/ProductTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/service/ProductImgsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/service/ProductImgsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/service/impl/ProductImgsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/service/impl/ProductImgsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-products/src/test/java/DBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/src/test/java/DBTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-products/target/classes/com/excmmy/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/target/classes/com/excmmy/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-products/target/classes/com/excmmy/controller/ProductImgsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/target/classes/com/excmmy/controller/ProductImgsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-products/target/classes/com/excmmy/mapper/ProductImgsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/target/classes/com/excmmy/mapper/ProductImgsMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-products/target/classes/com/excmmy/mapper/ProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/target/classes/com/excmmy/mapper/ProductMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-products/target/classes/com/excmmy/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/target/classes/com/excmmy/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-products/target/classes/com/excmmy/service/impl/ProductImgsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/target/classes/com/excmmy/service/impl/ProductImgsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-products/target/classes/com/excmmy/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/target/classes/com/excmmy/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-products/target/test-classes/DBTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/target/test-classes/DBTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-users/src/main/java/com/excmmy/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-users/src/main/java/com/excmmy/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-users/src/main/java/com/excmmy/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-users/src/main/java/com/excmmy/service/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-users/src/main/java/com/excmmy/service/impl/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-users/src/main/java/com/excmmy/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-users/src/main/java/com/excmmy/service/impl/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-users/src/main/java/com/excmmy/service/impl/UsersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-users/target/classes/com/excmmy/controller/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-users/target/classes/com/excmmy/controller/UsersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-users/target/classes/com/excmmy/service/impl/CartServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-users/target/classes/com/excmmy/service/impl/CartServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-users/target/classes/com/excmmy/service/impl/UsersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-users/target/classes/com/excmmy/service/impl/UsersServiceImpl.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +58,9 @@
         <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -28,18 +75,23 @@
     </option>
   </component>
   <component name="ProjectId" id="1ar12QpJrUwSJaBDtepZep9oS4H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../flashexpressserver" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -71,7 +123,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyBatisPlusGenerate">
+  <component name="RunManager" selected="Application.MyBatisPlusGenerate (1)">
+    <configuration name="MyBatisPlusGenerate (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.excmmy.MyBatisPlusGenerate" />
+      <module name="fbmallorders" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.excmmy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyBatisPlusGenerate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.excmmy.MyBatisPlusGenerate" />
       <module name="fbmallproducts" />
@@ -124,15 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunImagesServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="fbmallimages" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.excmmy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.excmmy.RunImagesServer" />
+    <configuration name="DBTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fbmallproducts" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DBTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,26 +225,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunUsersServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="fbmallusers" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.excmmy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.excmmy.RunUsersServer" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.RunProductsServer" />
-        <item itemvalue="Application.MyBatisPlusGenerate" />
-        <item itemvalue="Spring Boot.RunUsersServer" />
         <item itemvalue="Spring Boot.RunOrdersServer" />
-        <item itemvalue="Spring Boot.RunImagesServer" />
+        <item itemvalue="Application.MyBatisPlusGenerate (1)" />
+        <item itemvalue="JUnit.DBTest.test1" />
+        <item itemvalue="Application.MyBatisPlusGenerate" />
       </list>
     </recent_temporary>
   </component>
@@ -217,11 +266,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587478690299</updated>
-      <workItem from="1587478692935" duration="29413000" />
+      <workItem from="1587478692935" duration="55096000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

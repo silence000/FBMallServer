@@ -18,4 +18,5 @@ public interface ProductService extends IService<Product> {
     public ResponseJsonBody getProductList(PageInfo pageInfo);
     public ResponseJsonBody getProductDetails(RequestJsonBody requestJsonBody);
     public ResponseJsonBody getProductListByType(String type);
+    public ResponseJsonBody getProductListByKeyword(String keyword);
 }

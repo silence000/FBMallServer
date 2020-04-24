@@ -41,5 +41,10 @@ public class ProductController {
     public ResponseJsonBody getProductListByType(@RequestParam(name = "type") String type) {
         return productService.getProductListByType(type);
     }
+
+    @RequestMapping(value = "/product/search", method = RequestMethod.POST)
+    public ResponseJsonBody getProductListByKeyword(@RequestParam(name = "keyword") String keyword){
+        return productService.getProductListByKeyword(keyword);
+    }
 }
 

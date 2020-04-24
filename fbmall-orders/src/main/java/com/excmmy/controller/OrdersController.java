@@ -4,11 +4,8 @@ package com.excmmy.controller;
 import com.excmmy.pojo.OrderReceive;
 import com.excmmy.service.OrdersService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
 import pojo.ResponseJsonBody;
 
 /**
@@ -31,10 +28,15 @@ public class OrdersController {
     }
 
     @RequestMapping(value = "/order/insert", method = RequestMethod.POST)
-    public ResponseJsonBody insertNewOrder(@RequestBody OrderReceive orderReceive){
+    public ResponseJsonBody insertNewOrder(@RequestBody OrderReceive orderReceive) {
         return orderService.insertNewOrder(orderReceive);
     }
 
-
+    @RequestMapping(value = "/order/get/id", method = RequestMethod.POST)
+    public ResponseJsonBody getOrderIdByCustomerId(
+            @RequestParam(name = "customerId") Long customerId,
+            @RequestParam(name = "status") Integer status) {
+        return orderService.getOrderIdByCustomerId(customerId, status);
+    }
 }
 

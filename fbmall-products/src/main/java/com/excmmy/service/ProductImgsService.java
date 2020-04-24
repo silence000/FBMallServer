@@ -2,6 +2,7 @@ package com.excmmy.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.excmmy.bean.ProductImgs;
+import pojo.ResponseJsonBody;
 
 /**
  * <p>
@@ -12,5 +13,5 @@ import com.excmmy.bean.ProductImgs;
  * @since 2020-04-17
  */
 public interface ProductImgsService extends IService<ProductImgs> {
-
+    public ResponseJsonBody getOneProductImgById(Long id);
 }

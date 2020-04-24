@@ -79,4 +79,19 @@ public class ProductServiceImpl extends ServiceImpl<ProductMapper, Product> impl
         }
         return responseJsonBody;
     }
+
+    @Override
+    public ResponseJsonBody getProductListByKeyword(String keyword) {
+        ResponseJsonBody responseJsonBody = new ResponseJsonBody();
+        if (keyword != null) {
+            List<ProductList> productLists = productMapper.getProductListByKeyword(keyword);
+            responseJsonBody.setCode(MallConstant.SUCCESS_CODE);
+            responseJsonBody.setMsg(MallConstant.SUCCESS_DESC);
+            responseJsonBody.setData(productLists);
+        } else {
+            responseJsonBody.setCode(MallConstant.FAIL_CODE);
+            responseJsonBody.setMsg(MallConstant.FAIL_DESC);
+        }
+        return responseJsonBody;
+    }
 }

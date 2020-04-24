@@ -1,8 +1,11 @@
 package com.excmmy.service.impl;
 
+import com.excmmy.bean.OrderList;
 import com.excmmy.bean.Orders;
 import com.excmmy.bean.OrdersContent;
 import com.excmmy.feign.CartFeign;
+import com.excmmy.feign.ProductFeign;
+import com.excmmy.mapper.OrderListMapper;
 import com.excmmy.mapper.OrdersContentMapper;
 import com.excmmy.mapper.OrdersMapper;
 import com.excmmy.pojo.OrderReceive;
@@ -16,6 +19,9 @@ import pojo.ResponseJsonBody;
 
 import java.math.BigDecimal;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * <p>
@@ -31,9 +37,13 @@ public class OrdersServiceImpl extends ServiceImpl<OrdersMapper, Orders> impleme
     @Autowired
     private OrdersMapper ordersMapper;
     @Autowired
+    private OrderListMapper orderListMapper;
+    @Autowired
     private OrdersContentMapper ordersContentMapper;
     @Autowired
     private CartFeign cartFeign;
+    @Autowired
+    private ProductFeign productFeign;
 
     @Override
     @Transactional
@@ -78,6 +88,54 @@ public class OrdersServiceImpl extends ServiceImpl<OrdersMapper, Orders> impleme
             responseJsonBody.setCode(MallConstant.FAIL_CODE);
             responseJsonBody.setMsg(MallConstant.FAIL_DESC);
         }
+        return responseJsonBody;
+    }
+
+    @Override
+    public ResponseJsonBody getOrderIdByCustomerId(Long customerId, Integer status) {
+        ResponseJsonBody responseJsonBody = new ResponseJsonBody();
+        Map<String,Object> condition = new HashMap<>();
+        condition.put("customerId", customerId);
+        List<Orders> ordersList = ordersMapper.selectByMap(condition);
+        List<OrderList> orderListContent = null;
+        if (ordersList != null) {
+            Long[] ordersId = new Long[ordersList.size()];
+            for (int i = 0; i < ordersId.length; i++) {
+                ordersId[i] = ordersList.get(i).getId();
+                Map<String,Object> condition2 = new HashMap<>();
+                condition2.put("ordersId", ordersId[i]);
+                if (status != 0) {
+                    condition2.put("status", status);
+                }
+                List<OrderList> orderListContentTemp = orderListMapper.selectByMap(condition2);
+                if (orderListContentTemp != null) {
+                    for (OrderList orderListContentTempUnit : orderListContentTemp) {
+                        ResponseJsonBody responseJsonBodyRec = productFeign.getOneProductImgById(orderListContentTempUnit.getProductId());
+                        if (responseJsonBodyRec.getCode() == MallConstant.SUCCESS_CODE) {
+                            orderListContentTempUnit.setImgUrl(responseJsonBodyRec.getData() + "");
+                        } else {
+                            responseJsonBody.setCode(MallConstant.FAIL_CODE);
+                            responseJsonBody.setMsg(MallConstant.FAIL_DESC);
+                            return responseJsonBody;
+                        }
+                    }
+                }
+                if (orderListContent == null) {
+                    orderListContent = orderListContentTemp;
+                    continue;
+                }
+                if (orderListContentTemp != null) {
+                    orderListContent.addAll(orderListContentTemp);
+                }
+            }
+            responseJsonBody.setCode(MallConstant.SUCCESS_CODE);
+            responseJsonBody.setMsg(MallConstant.SUCCESS_DESC);
+            responseJsonBody.setData(orderListContent);
+        } else {
+            responseJsonBody.setCode(MallConstant.FAIL_CODE);
+            responseJsonBody.setMsg(MallConstant.FAIL_DESC);
+        }
+
         return responseJsonBody;
     }
 }

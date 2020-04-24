@@ -42,4 +42,12 @@ public interface ProductMapper extends BaseMapper<Product> {
             @Result(property = "id", column = "id")
     })
     public List<ProductList> getProductListByType(@Param("type") String type);
+
+    @Select("SELECT * FROM product_list WHERE productName LIKE CONCAT('%',#{keyword},'%')")
+    @Results({
+            @Result(property = "imgsUrl", column = "id",
+                    many = @Many(select = "com.excmmy.mapper.ProductImgsMapper.getOneProductImgById")),
+            @Result(property = "id", column = "id")
+    })
+    public List<ProductList> getProductListByKeyword(@Param("keyword") String keyword);
 }

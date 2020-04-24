@@ -15,4 +15,5 @@ import pojo.ResponseJsonBody;
  */
 public interface OrdersService extends IService<Orders> {
     public ResponseJsonBody insertNewOrder(OrderReceive orderReceive);
+    public ResponseJsonBody getOrderIdByCustomerId(Long customerId, Integer status);
 }
