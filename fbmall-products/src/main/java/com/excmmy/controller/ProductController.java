@@ -21,12 +21,6 @@ public class ProductController {
     @Autowired
     private ProductService productService;
 
-    @RequestMapping(value = "/product/hello", method = RequestMethod.GET)
-    public String welcome() {
-        System.out.println("成功访问到了FBMall-ProductsServer后台");
-        return "hello to FBMall-ProductsServer";
-    }
-
     @RequestMapping(value = "/product/get/list", method = RequestMethod.POST)
     public ResponseJsonBody getProductList(@RequestBody PageInfo pageInfo) {
         return productService.getProductList(pageInfo);

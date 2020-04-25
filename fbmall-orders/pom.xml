@@ -11,5 +11,12 @@
 
   <artifactId>fbmall-orders</artifactId>
 
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+      <version>2.1.2.RELEASE</version>
+    </dependency>
+  </dependencies>
 
 </project>

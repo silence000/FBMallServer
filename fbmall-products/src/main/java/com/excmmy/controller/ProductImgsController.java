@@ -23,6 +23,11 @@ public class ProductImgsController {
 
     @RequestMapping(value = "/product/get/product_img")
     public ResponseJsonBody getOneProductImgById(@RequestParam(name = "id") Long id) {
+//        try {
+//            Thread.sleep(3000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
         return productImgsService.getOneProductImgById(id);
     }
 }

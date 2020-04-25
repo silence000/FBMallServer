@@ -22,9 +22,9 @@ public class OrdersController {
     private OrdersService orderService;
 
     @RequestMapping(value = "/order/hello", method = RequestMethod.GET)
-    public String welcome() {
-        System.out.println("成功访问到了FBMall-OrdersServer后台");
-        return "hello to FBMall-OrdersServer";
+    public String hello() {
+        System.out.println("Hello");
+        return "Hello";
     }
 
     @RequestMapping(value = "/order/insert", method = RequestMethod.POST)

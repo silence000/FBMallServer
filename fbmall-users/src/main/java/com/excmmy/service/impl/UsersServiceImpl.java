@@ -51,7 +51,7 @@ public class UsersServiceImpl extends ServiceImpl<UsersMapper, Users> implements
         Users usersName = usersMapper.selectOne(usersQueryWrapper);
         if (usersName != null) {
             responseJsonBody.setCode(MallConstant.FAIL_CODE_NAME_CONFLICT );
-            responseJsonBody.setMsg(MallConstant.REGISTER_FALL_NAME_CONFLICT);
+            responseJsonBody.setMsg(MallConstant.FAIL_CODE_NAME_CONFLICT_STRING);
             return responseJsonBody;
         }
         users.setSeries(UUID.randomUUID().toString());

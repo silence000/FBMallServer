@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -13,12 +14,14 @@
         <module name="fbmallcommon" />
         <module name="fbmalllogs" />
         <module name="fbmallcloudeureka" />
+        <module name="fbmallcloudzuul" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="fbmallcloudeureka" options="-parameters" />
+      <module name="fbmallcloudzuul" options="-parameters" />
       <module name="fbmallimages" options="-parameters" />
       <module name="fbmalllogs" options="-parameters" />
       <module name="fbmallorders" options="-parameters" />
