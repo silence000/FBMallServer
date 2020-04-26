@@ -2,55 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="359e3208-2ecc-4299-bc55-8487955f29d5" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fbmall-cloud-zuul/fbmallcloudzuul.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fbmall-cloud-zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fbmall-cloud-zuul/src/main/java/com/excmmy/RunZuulCloud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fbmall-cloud-zuul/src/main/java/com/excmmy/filter/CheckUserFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fbmall-cloud-zuul/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/feign/Hystrix/CartFeignHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/feign/Hystrix/ProductFeignHystrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-common/src/main/java/pojo/MallConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-common/src/main/java/pojo/MallConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-common/target/classes/pojo/MallConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-common/target/classes/pojo/MallConstant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-orders/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-orders/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/RunOrdersServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/RunOrdersServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/controller/OrdersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/feign/CartFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/feign/CartFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/feign/ProductFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/feign/ProductFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/interceptor/AllowCROS.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-cloud-zuul/src/main/java/com/excmmy/interceptor/AllowCROS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/service/impl/OrdersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-orders/src/main/java/com/excmmy/service/impl/OrdersServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-orders/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-orders/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-orders/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-orders/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-orders/target/classes/com/excmmy/RunOrdersServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-orders/target/classes/com/excmmy/RunOrdersServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-orders/target/classes/com/excmmy/controller/OrdersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-orders/target/classes/com/excmmy/controller/OrdersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-orders/target/classes/com/excmmy/feign/CartFeign.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-orders/target/classes/com/excmmy/feign/CartFeign.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-orders/target/classes/com/excmmy/feign/ProductFeign.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-orders/target/classes/com/excmmy/feign/ProductFeign.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-orders/target/classes/com/excmmy/interceptor/AllowCROS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-orders/target/classes/com/excmmy/service/impl/OrdersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-orders/target/classes/com/excmmy/service/impl/OrdersServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/controller/ProductImgsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/controller/ProductImgsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-products/src/main/java/com/excmmy/interceptor/AllowCROS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-products/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-products/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-products/target/classes/com/excmmy/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/target/classes/com/excmmy/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-products/target/classes/com/excmmy/controller/ProductImgsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-products/target/classes/com/excmmy/controller/ProductImgsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-products/target/classes/com/excmmy/interceptor/AllowCROS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-users/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-users/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-users/src/main/java/com/excmmy/RunUsersServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-users/src/main/java/com/excmmy/RunUsersServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-users/src/main/java/com/excmmy/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-users/src/main/java/com/excmmy/controller/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-users/src/main/java/com/excmmy/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-users/src/main/java/com/excmmy/controller/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-users/src/main/java/com/excmmy/interceptor/AllowCROS.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fbmall-users/src/main/java/com/excmmy/service/impl/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-users/src/main/java/com/excmmy/service/impl/UsersServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-users/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-users/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-users/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-users/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-users/target/classes/com/excmmy/RunUsersServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-users/target/classes/com/excmmy/RunUsersServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-users/target/classes/com/excmmy/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-users/target/classes/com/excmmy/controller/CartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-users/target/classes/com/excmmy/controller/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-users/target/classes/com/excmmy/controller/UsersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmall-users/target/classes/com/excmmy/interceptor/AllowCROS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmall-users/target/classes/com/excmmy/service/impl/UsersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/fbmall-users/target/classes/com/excmmy/service/impl/UsersServiceImpl.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -239,10 +193,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.RunOrdersServer" />
-        <item itemvalue="Spring Boot.RunProductsServer" />
-        <item itemvalue="Spring Boot.RunImagesServer" />
         <item itemvalue="Spring Boot.RunUsersServer" />
+        <item itemvalue="Spring Boot.RunProductsServer" />
+        <item itemvalue="Spring Boot.RunOrdersServer" />
+        <item itemvalue="Spring Boot.RunImagesServer" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +232,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587478690299</updated>
       <workItem from="1587478692935" duration="61656000" />
-      <workItem from="1587803550739" duration="18182000" />
+      <workItem from="1587803550739" duration="20907000" />
     </task>
     <servers />
   </component>

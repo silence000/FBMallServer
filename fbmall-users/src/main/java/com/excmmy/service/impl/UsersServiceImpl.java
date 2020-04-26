@@ -55,6 +55,7 @@ public class UsersServiceImpl extends ServiceImpl<UsersMapper, Users> implements
             return responseJsonBody;
         }
         users.setSeries(UUID.randomUUID().toString());
+        users.setStatus(1);
         int flag = usersMapper.insert(users);
         if (flag == 1) {
             responseJsonBody.setCode(MallConstant.SUCCESS_CODE);
